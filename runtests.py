@@ -101,6 +101,7 @@ with open('seriale.csv', 'w', encoding='UTF8') as f:
             print(nums)
             writer.writerow([n, nums[0], nums[1], elapsed_time])
             f.flush()
+
 """
 for core in cores:
     with open('openmp' + str(core) + '.csv', 'w', encoding='UTF8') as f:
